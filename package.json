@@ -1,0 +1,32 @@
+{
+  "name": "s3-bucket-download",
+  "version": "1.0.0",
+  "description": "This downloads file from a single bucket or all of the buckets if no bucket name specified",
+  "main": "download.js",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "keywords": [
+    "s3",
+    "download",
+    "bucket",
+    "aws",
+    "sync",
+    "aws-sdk",
+    "aws-cli"
+  ],
+  "author": "Mihir Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
