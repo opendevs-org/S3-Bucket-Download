@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This downloads file from a single bucket or all of the buckets if no bucket name specified",
   "main": "download.js",
-  "dependencies": {
-    "minimist": "^1.2.5"
-  },
   "scripts": {
     "commit": "git-cz"
   },
@@ -19,7 +16,11 @@
     "aws-cli"
   ],
   "author": "Mihir Kumar",
-  "license": "ISC",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "prompt": "^1.0.0"
+  },
   "devDependencies": {
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0"
