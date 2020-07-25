@@ -34,17 +34,17 @@ const chooseBucketAndPath = () => {
 
   start();
 
-  get(schema, (err, { bucketName, path }) => {
+  get(schema, (err, argv) => {
     if (err) {
       console.log(`Prompt error: ${err}`);
     } else {
-      console.log(`Bucket names to download: ${bucketName.split(',').map(el => el.trim())} ${path}`);
+      console.log(`Bucket names to download: ${argv.bucketName.split(',').map(el => el.trim())} ${argv.path}`);
 
       configure((error, _) => {
         if (error) {
           return;
         } else {
-          initiate(bucketName, path);
+          initiate(argv.bucketName, argv.path);
         }
       });
     }
@@ -92,8 +92,30 @@ const configure = (callback) => {
 };
 
 
-if (argv.bucket === undefined && argv.path === undefined) {
-  console.log('Running in Custom mode!');
+if (argv.all) {
+  console.log('Running in Download All mode!');
+
+  exec(`aws s3api list-buckets --query "Buckets[].Name"`, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`exec error: ${error}`);
+
+      return;
+    } else if (stderr) {
+      console.error(`AWS CLI error: ${stderr}`);
+    } else {
+      console.log(`Buckets to download: ${stdout}`);
+
+      configure((error, _) => {
+        if (error) {
+          return;
+        } else {
+          initiate(Array(stdout).join(','), argv.path);
+        }
+      });
+    }
+  });
+} else if (argv.bucketName === undefined && argv.path === undefined) {
+  console.log('Running in Interactive mode!');
 
   exec(`aws s3api list-buckets --query "Buckets[].Name"`, (error, stdout, stderr) => {
     if (error) {
@@ -109,13 +131,13 @@ if (argv.bucket === undefined && argv.path === undefined) {
     }
   });
 } else {
-  console.log('Running in Auto mode!');
+  console.log('Running in CLI mode!');
 
   configure((error, _) => {
     if (error) {
       return;
     } else {
-      initiate(argv.bucket, argv.path);
+      initiate(argv.bucketName, argv.path);
     }
   });
 }
