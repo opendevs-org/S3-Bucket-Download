@@ -4,7 +4,9 @@
   "description": "This downloads file from a single bucket or all of the buckets if no bucket name specified",
   "main": "download.js",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "s3",
@@ -19,7 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.5",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "snyk": "^1.349.0"
   },
   "devDependencies": {
     "commitizen": "^4.1.2",
@@ -29,5 +32,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "snyk": true
 }
