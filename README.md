@@ -12,7 +12,8 @@
   </a>
 </p>
 
-> This project enables downloading data from s3 a breeze, it has 3 modes (CLI mode, Interactive mode & Download All mode) using which you can download s3 bucket files into default or custom path.
+This project enables downloading data from s3 a breeze, it has 3 modes _(CLI mode, Interactive mode & Download All mode)_ using which you can download _aws s3 bucket_ files into default or custom path.<br/>
+If you choose the same directory as previous time, it'll `sync` those changes.
 
 ### 🏠 [Homepage](https://github.com/MiKr13/S3-Bucket-Download/#README)
 
