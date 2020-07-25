@@ -29,14 +29,14 @@ npm install
 #### _CLI mode:_
 
 ```sh
-node download --bucketName=[comma,seperated,bucketnames] --path=[path where you want to save, for ex: ../data]
+$ node download --bucketName=[comma,seperated,bucketnames] --path=[path to save to for ex: ../data]
 ```
 > Without brackets ofcourse.
 
 #### _Interactive mode:_
 
 ```sh
-node download
+$ node download
 ```
 > It'll display list of all buckets in an array & ask for options like:
 
@@ -45,12 +45,13 @@ node download
 #### _Download All mode:_
 
 ```sh
-node download --all
+$ node download --all
 ```
 > Just downloads all of the files in all of the buckets.
 
 #### Logs:
-It shows logs too, like these:
+>It shows logs too, like these:
+
 ![Interactive mode options](.screenshots/logs.png)
 
 ## 🕺 Author
