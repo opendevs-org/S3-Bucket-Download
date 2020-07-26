@@ -22,7 +22,7 @@
   "dependencies": {
     "minimist": "^1.2.5",
     "prompt": "^1.0.0",
-    "snyk": "^1.349.0"
+    "snyk": "^1.360.0"
   },
   "devDependencies": {
     "commitizen": "^4.1.2",
