@@ -10,6 +10,9 @@
   <a href="https://twitter.com/mikr1306" target="_blank">
     <img alt="Twitter: mikr1306" src="https://img.shields.io/twitter/follow/mikr1306.svg?style=social" />
   </a>
+  <a href="https://github.com/mikr13" target="_blank">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/mikr13?style=social">                                       
+  </a>                                                                                  
 </p>
 
 This project enables downloading data from s3 a breeze, it has 3 modes _(CLI mode, Interactive mode & Download All mode)_ using which you can download _aws s3 bucket_ files into default or custom path.<br/>
