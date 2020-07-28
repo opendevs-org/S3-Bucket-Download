@@ -1,5 +1,5 @@
 <h1 align="center">👋 Welcome to S3 Bucket Download (s3-bucket-download) 🕶</h1>
-<p>
+<h3 align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/MiKr13/S3-Bucket-Download/#README" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -13,7 +13,7 @@
   <a href="https://github.com/mikr13" target="_blank">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/mikr13?style=social">                                       
   </a>                                                                                  
-</p>
+</h3>
 
 This project enables downloading data from s3 a breeze, it has 3 modes _(CLI mode, Interactive mode & Download All mode)_ using which you can download _aws s3 bucket_ files into default or custom path.<br/>
 If you choose the same directory as previous time, it'll `sync` those changes.
