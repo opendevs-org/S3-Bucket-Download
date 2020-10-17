@@ -1,12 +1,27 @@
 {
-  "name": "s3-bucket-download",
-  "version": "1.0.0",
+  "name": "s3-bucket-downloader",
+  "version": "1.1.0",
   "description": "This downloads file from a single bucket or all of the buckets if no bucket name specified",
-  "main": "download.js",
+  "preferGlobal": true,
   "scripts": {
-    "commit": "git-cz",
+    "s3-bucket-downloader": "node bin/download.js",
+    "commit-a": "git add . && git cz",
+    "commit": "git cz",
+    "start": "node bin/download.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-devs/S3-Bucket-Download.git"
+  },
+  "main": "lib/download.js",
+  "module": "lib/download.js",
+  "unpkg": "lib/download.js",
+  "bin": {
+    "s3": "bin/s3-bucket-download.js",
+    "s3-downloader": "bin/s3-bucket-download.js",
+    "s3-bucket-downloader": "bin/s3-bucket-download.js"
   },
   "keywords": [
     "s3",
@@ -15,18 +30,30 @@
     "aws",
     "sync",
     "aws-sdk",
-    "aws-cli"
+    "aws-cli",
+    "downloader",
+    "bucket",
+    "automatic"
   ],
-  "author": "Mihir Kumar",
+  "author": "open devs (open.devs.github@gmail.com)",
+  "contributors": [
+    "Mihir Kumar (mikr13)",
+    "Alok Raj (alok722)"
+  ],
   "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/open-devs/s3-bucket-download/issues"
+  },
+  "homepage": "https://github.com/open-devs/s3-bucket-download#readme",
   "dependencies": {
+    "cfonts": "^2.8.6",
     "minimist": "^1.2.5",
     "prompt": "^1.0.0",
     "snyk": "^1.369.3"
   },
   "devDependencies": {
-    "commitizen": "^4.1.5",
-    "cz-conventional-changelog": "^3.2.0"
+    "git-cz": "^4.7.0"
   },
   "config": {
     "commitizen": {
