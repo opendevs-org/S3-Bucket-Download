@@ -1,7 +1,7 @@
 {
   "name": "s3-bucket-downloader",
-  "version": "1.1.0",
-  "description": "This downloads file from a single bucket or all of the buckets if no bucket name specified",
+  "version": "1.1.1",
+  "description": "This downloads file from a single bucket, multiple buckets or all of the buckets if no bucket name specified",
   "preferGlobal": true,
   "scripts": {
     "s3-bucket-downloader": "node bin/download.js",
