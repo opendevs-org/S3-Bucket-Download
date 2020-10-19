@@ -42,37 +42,43 @@ npm install
 _Run anyone of following commands (only interactive mode available currently):_
 
 ```sh
-$ s3
+s3
 # or
-$ s3-downloader
+s3-downloader
 # or
-$ s3-bucket-downloader
+s3-bucket-downloader
 ```
 
-#### _Interactive mode (for advanced users):_
+## Usage (advanced user)
+
+### _Interactive mode:_
 
 ```sh
-$ node download
+node download
 ```
+
 > It'll display list of all buckets in an array & ask for options like:
 
 ![Interactive mode options](.screenshots/interactive-mode.png)
 
-#### _CLI mode (for advanced users):_
+### _CLI mode:_
 
 ```sh
-$ node download --bucketName=[comma,seperated,bucketnames] --path=[path to save to for ex: ../data]
+node download --bucketName=[comma,seperated,bucketnames] --path=[path to save to for ex: ../data]
 ```
+
 > Without brackets ofcourse.
 
-#### _Download All mode (for advanced users):_
+### _Download All mode:_
 
 ```sh
-$ node download --all
+node download --all
 ```
+
 > Just downloads all of the files in all of the buckets.
 
 ## Logs:
+
 >It shows logs too, like these:
 
 ![Interactive mode options](.screenshots/logs.png)
