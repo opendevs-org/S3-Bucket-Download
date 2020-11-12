@@ -15,11 +15,11 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/mikr1306" target="_blank">
-    <img alt="Twitter: mikr1306" src="https://img.shields.io/twitter/follow/mikr1306.svg?style=social" />
+  <a href="https://twitter.com/opendevs_2020" target="_blank">
+    <img alt="Twitter: opendevs_2020" src="https://img.shields.io/twitter/follow/opendevs_2020.svg?style=social" />
   </a>
-  <a href="https://github.com/mikr13" target="_blank">
-    <img alt="GitHub followers" src="https://img.shields.io/github/followers/mikr13?style=social">
+  <a href="https://github.com/open-devs" target="_blank">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/open-devs?style=social">
   </a>
   <img alt="Snyk Vulnerabilities for npm package" src="https://img.shields.io/snyk/vulnerabilities/npm/s3-bucket-downloader">
 </h3>
