@@ -27,6 +27,8 @@
 This project enables downloading data from s3 a breeze, it has 3 modes _(CLI mode, Interactive mode & Download All mode)_ using which you can download _aws s3 bucket_ files into default or custom path.<br/>
 If you choose the same directory as previous time, it'll `sync` those changes.
 
+> It now supports setting of aws config like AWS Access key ID, AWS Secret key, AWS region & Output format in interactive mode
+
 ### 🏠 [Homepage](https://github.com/MiKr13/S3-Bucket-Download/#README)
 
 <!--### ✨ [Demo](https://github.com/MiKr13/S3-Bucket-Download/#README) -->
@@ -34,12 +36,14 @@ If you choose the same directory as previous time, it'll `sync` those changes.
 ## Install
 
 ```sh
-npm install
+npm i -g s3-bucket-downloader
 ```
 
 ## Usage
 
 _Run anyone of following commands (only interactive mode available currently):_
+
+> Interactive mode now supports setting of aws config like AWS **Access key ID**, **Secret key**, **Region** & **Output format** in interactive mode if none present in the system.
 
 ```sh
 s3
@@ -50,6 +54,8 @@ s3-bucket-downloader
 ```
 
 ## Usage (advanced user)
+
+> Advanced users have to set AWS config themselves for now
 
 ### _Interactive mode:_
 
