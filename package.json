@@ -53,7 +53,7 @@
     "snyk": "^1.425.3"
   },
   "devDependencies": {
-    "git-cz": "^4.7.3"
+    "git-cz": "^4.7.4"
   },
   "config": {
     "commitizen": {
