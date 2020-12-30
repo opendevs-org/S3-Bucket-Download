@@ -47,7 +47,7 @@
   },
   "homepage": "https://github.com/open-devs/s3-bucket-download#readme",
   "dependencies": {
-    "cfonts": "^2.8.6",
+    "cfonts": "^2.9.0",
     "minimist": "^1.2.5",
     "prompt": "^1.0.0",
     "snyk": "^1.425.3"
