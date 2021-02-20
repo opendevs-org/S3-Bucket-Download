@@ -31,6 +31,8 @@ If you choose the same directory as previous time, it'll `sync` those changes.
 
 ### 🏠 [Homepage](https://github.com/MiKr13/S3-Bucket-Download/#README)
 
+### [Demo](https://www.npmjs.com/package/s3-bucket-downloader)
+
 <!--### ✨ [Demo](https://github.com/MiKr13/S3-Bucket-Download/#README) -->
 
 ## Install
