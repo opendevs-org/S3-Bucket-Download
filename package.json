@@ -50,7 +50,7 @@
     "cfonts": "^2.9.2",
     "minimist": "^1.2.5",
     "prompt": "^1.1.0",
-    "snyk": "^1.596.0"
+    "snyk": "^1.639.0"
   },
   "devDependencies": {
     "git-cz": "^4.7.6"
