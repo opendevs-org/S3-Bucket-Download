@@ -49,7 +49,7 @@
   "dependencies": {
     "cfonts": "^2.9.3",
     "minimist": "^1.2.5",
-    "prompt": "^1.1.0",
+    "prompt": "^1.2.0",
     "snyk": "^1.667.0"
   },
   "devDependencies": {
