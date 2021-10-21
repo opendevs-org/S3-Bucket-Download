@@ -1,13 +1,11 @@
 {
   "name": "s3-bucket-downloader",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "This downloads file from a single bucket, multiple buckets or all of the buckets if no bucket name specified",
   "preferGlobal": true,
   "scripts": {
-    "s3-bucket-downloader": "node bin/download.js",
-    "commit-a": "git add . && git cz",
-    "commit": "git cz",
-    "start": "node bin/download.js",
+    "s3-bucket-downloader": "node bin/s3-bucket-download.js",
+    "start": "node bin/s3-bucket-download.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
@@ -47,18 +45,12 @@
   },
   "homepage": "https://github.com/open-devs/s3-bucket-download#readme",
   "dependencies": {
-    "cfonts": "^2.9.3",
+    "cfonts": "^2.10.0",
     "minimist": "^1.2.5",
-    "prompt": "^1.1.0",
-    "snyk": "^1.667.0"
+    "prompt": "^1.2.0"
   },
   "devDependencies": {
-    "git-cz": "^4.7.6"
-  },
-  "config": {
-    "commitizen": {
-      "path": "git-cz"
-    }
+    "snyk": "^1.742.0"
   },
   "snyk": true
 }
