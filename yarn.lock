@@ -165,9 +165,9 @@ revalidator@0.1.x:
   integrity sha1-/s5hv6DBtSoga9axgZgYS91SOjs=
 
 snyk@^1.742.0:
-  version "1.742.0"
-  resolved "https://registry.npmjs.org/snyk/-/snyk-1.742.0.tgz#93dee4d0c8fdef34f75625b64362102025be07e3"
-  integrity sha512-NaYeL52r/kRVs+GTvId6IimKTQPbqQQj1W50DfZBWH4mGFEnNWl54G3TRRVB2ntoEK+RvjwkA40GqU5ozpAw3g==
+  version "1.996.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.996.0.tgz#0369ca9e6a3a148751294c1320f59a79d5eb3c88"
+  integrity sha512-nq//Ely0bSt50LzX9Er5lCQNqTpaKn7I7xkhUB3Z+8rs8Jqha360HeQwhbVzsuQS3xT/1+36zt6CcgyLPM1QbA==
 
 stack-trace@0.0.x:
   version "0.0.10"
