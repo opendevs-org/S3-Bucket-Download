@@ -50,7 +50,7 @@
     "prompt": "^1.2.0"
   },
   "devDependencies": {
-    "snyk": "^1.742.0"
+    "snyk": "^1.1249.0"
   },
   "snyk": true
 }
