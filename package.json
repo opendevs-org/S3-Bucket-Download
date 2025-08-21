@@ -47,7 +47,7 @@
   "dependencies": {
     "cfonts": "^2.10.0",
     "minimist": "^1.2.5",
-    "prompt": "^1.2.0"
+    "prompt": "^1.3.0"
   },
   "devDependencies": {
     "snyk": "^1.742.0"
